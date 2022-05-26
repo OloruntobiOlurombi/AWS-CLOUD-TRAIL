@@ -53,3 +53,13 @@
 
 > Consider a Trail as a log of all the events/actions that occurred in your AWS account. Of course, events have to be processed to convert them into a particular log-format.
 
+![image](https://user-images.githubusercontent.com/40290711/170476994-3dc8435d-5d7c-4fa2-8744-a16098919f5d.png)
+
+- In the snapshot above, notice the separate table for Trails, Insights, and Event history. The Event history section shows all the recent events. It shows every action that occurred in your AWS account. Click on View full Event history to see additional details and more events that have occurred.
+
+- Remember, that the first trail does not attract billing charges. However, you incur charges for the S3 bucket that will store your logs. You can create additional trails on a charge-basis.
+
+![image](https://user-images.githubusercontent.com/40290711/170477277-1b6e4f3c-8a83-43db-9a7c-824ecc35ab90.png)
+
+# The End 
+
